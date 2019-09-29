@@ -1,75 +1,71 @@
-div {  border: 3px solid red; }
+div {  border: 3px solid; color: #ebebeb }
 
 
-
-
-
-.left{
-    width: 500px;
-    background-color:white;
-    height:200px;
-    float: left;
-    text-align: center;
-    color: #777;
-    font-size: 10px;
-}
-
-.right{
-    width: 400px;
-    background-color:white;
-    height:200px;
-    float: right;
-    text-align: center;
-    color:#777;
-    font-size: 10px;
-}
 
 
 body {
-    background-color: #777;
-    font-family: Arial, Helvetica, sans-serif;
-    
+  background-color: #777;
+  text-align: center;
+  color: #777;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
 }
+header {
+  height: 95px;
+  width: 940;
+  background-color: #ebebeb;
+  padding: 20px;
+}
+nav {
+  height: 95px;
+  width: 940;
+  background-color: #ebebeb;
+  padding: 20px;
+}
+article {
+  background-color: #777;
+  color: #ebebeb;
+  
+}
+aside {
+  float: right;
+  width: 495px;
+  height: 200px;
+  padding: 20px;
+  background: #ebebeb;
+  border: 20px solid;
+}
+footer {
+  background-color: #ebebeb;
+  padding: 20px;
+  height: 95px;
+  width: 940;
 
-.header{
-    padding: 20px;
-    text-align: center;
-    background-color:white;
-    color:#777;
-    font-size: 10px;
-
-  }
-
-  .nav{
-    padding: 20px;
-    text-align: center;
-    background-color:white;
-    color:#777;
-    font-size: 10px;
-  }
-  .section{
-    padding: 200px;
-    text-align: center;
-    background-color:white;
-    color:#777;
-    font-size: 20px;
-    float: left;
-  }
-  .aside{
-    padding: 200px;
-    text-align: center;
-    background-color:white;
-    color:#777;
-    font-size: 10px;
-    float: right;
-  }
-
-  .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color:white;
-    color:#777;
-    text-align: center;
-  }
+}
+section {
+  width: 495px;
+  height: 200px;
+  padding: 20px;
+  background: #ebebeb;
+  border: 20px solid;
+}
+article {
+  margin-top: 60px;
+  box-sizing: padding-box;
+}
+h1 {
+  border: solid #ebebeb;
+  background-origin: padding-box;
+  box-sizing: content-box;
+  align-content: center;
+}
+p {
+  border: solid #ebebeb;
+  background-origin: padding-box;
+  box-sizing: border-box;
+  align-content: center;
+}
+footer{
+  text-align: center;
+  color: black;
+}
